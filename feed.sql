@@ -12,6 +12,13 @@ SET standard_conforming_strings = on;
 SET check_function_bodies = false;
 SET client_min_messages = warning;
 
+-- Role: feed
+
+-- DROP ROLE feed;
+
+CREATE ROLE feed LOGIN
+  NOSUPERUSER INHERIT NOCREATEDB NOCREATEROLE;
+
 --
 -- TOC entry 1872 (class 1262 OID 16405)
 -- Name: feed; Type: DATABASE; Schema: -; Owner: feed
