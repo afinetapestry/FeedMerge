@@ -1,0 +1,23 @@
+body {padding: 16px; font-family: sans-serif;}
+
+.box {
+	padding: 16px;
+	background: #efefef;
+	border: 1px solid #ddd;
+	box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+}
+
+
+#header h1 {margin: 0px; font-weight: normal;}
+#header p {margin-bottom: 0px;}
+
+#content ul {margin: 8px; padding-top: 16px; padding-bottom: 16px;}
+
+#content li {margin-top: 12px; margin-bottom: 12px;}
+
+#content a {color:#5BAB03; font-weight: bold; text-decoration: none;}
+#content a:hover {color:#5BAB03; text-decoration: underline;}
+
+#footer {font-size: small;}
+#footer p {margin-top: 0px; margin-bottom: 0px;}
